@@ -1,4 +1,4 @@
-const userModel = require('../models/userModel');
+const userModel = require('../models/UserModel');
 
 exports.showLogin = (req, res) => {
   res.render('login', { title: 'Login' });
