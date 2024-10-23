@@ -1,0 +1,4 @@
+se não tem nodemon:
+npm install nodemon
+para usar ele:
+npx nodemon "index.js"
