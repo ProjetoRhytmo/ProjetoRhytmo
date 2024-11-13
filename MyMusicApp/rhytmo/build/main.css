@@ -1,0 +1,28 @@
+.body{
+    height: 100%;
+}
+
+.top_bar{
+    background-color: black;
+    height:7vh ;
+    margin-top: none;
+    margin-right: none;
+}
+
+.items_top{
+    display: flex;
+    justify-items: center;
+    margin-top: none;
+}
+
+.search_bar{
+    border-radius: 10px;
+    display: flex;
+
+
+}
+
+.user{
+    width: 5vh;
+    height: 5vh;
+}
