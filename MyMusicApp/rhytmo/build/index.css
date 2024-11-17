@@ -1,0 +1,25 @@
+body{
+ background: linear-gradient(to right,#643076, #340e40, #08000d);
+}
+
+.top_bar{
+    background-color: black;
+    height:8vh ;
+    margin-top: none;
+    margin-right: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_bar_logo{
+    height: 6vh;
+    width: 6vh;
+}
+
+.search-bar{
+    border-radius: 20px;
+    height: 5vh;
+    width: 30%;
+    margin-top: 1vh;
+}
+
