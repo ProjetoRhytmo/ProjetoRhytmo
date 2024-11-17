@@ -1,0 +1,46 @@
+body{
+    background: radial-gradient(circle, #340e40, #08000d);
+}
+
+.button{
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.titulo{
+    color: white;
+    font-size: 50px;
+    margin-left: 20vh;
+}
+
+.login{
+    display: flex;
+    align-content: space-around;
+}
+
+.login_box{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+.text{
+    color: white;
+    font-size: 25px;
+    margin-left: 22vh;
+}
+
+.login_input{
+    height: 10vh;
+    width: 70vh;
+    margin-left: 20vh;
+    border-radius: 50px;
+}
+
+.img{
+    height: 40vh;
+    width: 40vh;
+}
