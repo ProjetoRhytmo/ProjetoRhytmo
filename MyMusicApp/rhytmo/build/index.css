@@ -15,6 +15,7 @@ body{
 .top_bar_logo{
     height: 6vh;
     width: 6vh;
+    margin-left: 5px;
 }
 
 .search-bar{
@@ -24,5 +25,60 @@ body{
     margin-top: 1vh;
 }
 
+.top_bar_user{
+    height: 6vh;
+    width: 6vh;
+    margin-right: 10px;
+}
+
+.container {
+    text-align:center;
+    position: relative;
+}
+
+.opcoes {
+    display: none;
+    background-color: #643076; 
+    border-radius: 5px; 
+    width: 100px; 
+    text-align: left; 
+    top: 100%; 
+}
+  
+.opcao {
+    background-color: #340e40;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 1px 0; 
+    cursor: pointer;
+    font-size: 10px;
+    width: 100%;
+}
+  
+
+
 /* fim da barra padrao */
 
+.aside{
+    border-color: white;
+    border-radius: 2px;
+}
+
+.aside_box{
+    display: flex;
+    flex-direction: column;
+}
+
+.aside_opcoes{
+    width: 37vh;
+    text-align: center;
+    height: 7vh;
+    background-color: #340e40;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 1px 0; 
+    cursor: pointer;
+    font-size: 10px;
+}
