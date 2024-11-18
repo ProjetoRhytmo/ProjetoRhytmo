@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 body{
     background: radial-gradient(circle, #340e40, #08000d);
 }
 
-.button{
+.button_header{
+    font-family: "alatsi", monospace;
+    font-weight: 100;
     background: transparent;
     color: white;
     border: none;
@@ -10,37 +14,53 @@ body{
 }
 
 .titulo{
+    font-family: "alatsi", monospace;
+    font-weight: 100;
     color: white;
     font-size: 50px;
     margin-left: 20vh;
 }
 
-.login{
-    display: flex;
-    align-content: space-around;
-}
 
 .login_box{
     display: flex;
     flex-direction: column;
     width: 30%;
-
 }
 
 .text{
+    font-family: "alatsi", monospace;
+    font-weight: 200;
     color: white;
-    font-size: 25px;
-    margin-left: 22vh;
+    font-size: 30px;
+    margin-left: 62px;
 }
 
 .login_input{
-    height: 10vh;
-    width: 70vh;
-    margin-left: 20vh;
+    height: 60px;
+    width: 600px;
+    margin-left: 60px;
     border-radius: 50px;
 }
 
 .img{
     height: 40vh;
     width: 40vh;
+}
+
+.login_button{
+    background: #643073;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    height: 45px;
+    width: 91px;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.logo_branca{
+    display: flex;
+    justify-content:right;
 }

@@ -82,3 +82,7 @@ body{
     cursor: pointer;
     font-size: 10px;
 }
+
+.login_button{
+    background-color: #340e40;
+}
