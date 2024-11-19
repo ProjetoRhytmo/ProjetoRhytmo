@@ -64,3 +64,12 @@ body{
     display: flex;
     justify-content:right;
 }
+
+.button_footer{
+font-family: "roboto-mono", monospace;
+font-weight: 100;
+background: transparent;
+color: #333333;
+border: none;
+font-size: 20px;
+}
